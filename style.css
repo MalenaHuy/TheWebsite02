@@ -1,0 +1,189 @@
+.bigP{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.mainInfor{
+    padding: 10px;
+}
+
+/* line */
+h1 {
+    display: flex;
+    flex-direction: row;
+}
+h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: 30px;
+}
+h1:before {
+    margin-right: 10px
+}
+h1:after {
+    margin-left: 10px
+}
+
+#mainname{
+    text-align: center;
+    padding: 0px;
+    font-size: 45px;
+}
+
+#mainclass{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0%;
+    color:  grey;
+}
+
+#mainclassclass{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    color:  grey;
+}
+
+.myPic{
+    border-radius: 999em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    min-width: 20%;
+}
+
+.education{
+    margin-left: 30px;
+}
+
+#head{
+    text-align: center;
+    margin: 30px;
+    font-style: underline;
+    text-decoration: underline;
+}
+
+.collegeImg{
+    margin-left: 10px;
+    margin-right:20px;
+    padding: 10px;
+    width: 100PX;
+    height: 100px; 
+    float: left;
+}
+
+.schoolName{
+    font-style: nonunderline;
+}
+
+.subHeading{
+    margin-right: 30px;
+}
+
+.totheright{
+    margin-right: 30px;
+}
+
+h5{
+    margin-right: 30px;
+}
+
+.lastHead6{
+    margin-bottom: 20px;
+    /* margin-left: 120px; */
+}
+
+.h4Project{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.divProject{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+button{
+    margin-bottom: 20px;
+    margin-left: 30px; 
+    color: black;
+}
+
+.buttonLast{
+    margin-bottom: 0px;
+}
+
+
+.detail{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.Experience{
+    display:flex;
+    justify-content: space-between;
+}
+
+#titleAndYear{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.date{
+    display: flex;
+    align-self: right;
+}
+
+.detail1{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.detail1Last{
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#certificateImages{
+    /* make image smaller */
+    height: 500px;    
+    /* make image round : 10% round the edges abit  50% make it round
+    (works with square photos*/
+    border-radius: 2%;
+    margin-left: 10px;
+    /* align-items: center; */
+    margin: 10px 25px 10px;
+}
+
+
+button{
+    margin-bottom: 20px;
+    margin-left: 30px; 
+    color: blue;
+    /* spacing margin and padding */
+    /* (outside) */
+    margin: 0px 25px 10px;
+    /* between element and border (inside)*/
+    padding: 5px 25px; 
+    background-color:white;
+    /* color:blue; */
+    font-size: 12px;
+    text-align: center; 
+    border: 1px solid black;
+    /* text-transform: uppercase; */
+    /* no affect on the button */
+    text-decoration: none;
+    /* add spacing between a letter or a text */
+    letter-spacing: 4px;
+    outline: none;  
+}
+
+
+
